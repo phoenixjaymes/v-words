@@ -34,11 +34,14 @@ export default {
 .main-content {
   background: #eee;
   flex: 1;
-  padding-top: 140px; }
+  padding-top: 110px;
+}
 
   @media (min-width: 768px) {
     .main-content {
-      padding-top: 200px; } }
+      padding-top: 170px;
+    }
+  }
 
 .main-content__wrap {
   padding-left: 15px;

@@ -9,7 +9,7 @@
       You can also generate other varieties of words, Doctor Who, German, and Meat
     </p>
     <p>
-      The main purpose of this word generator is for me to practice AngularJS.
+      The main purpose of this word generator was for me to practice AngularJS. It has now been converted to Vue.js
       I also use filler text from time to time when developing websites,
       so having a variety of filler text is nice.
       That&apos;s it, nothing special, just practice and the need for filler text.

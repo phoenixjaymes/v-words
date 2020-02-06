@@ -32,12 +32,13 @@ export default {
 
 <style>
 .main-content {
-  background: #fff;
+  background: #eee;
   flex: 1;
-  padding-top: 160px; }
+  padding-top: 140px; }
+
   @media (min-width: 768px) {
     .main-content {
-      padding-top: 270px; } }
+      padding-top: 200px; } }
 
 .main-content__wrap {
   padding-left: 15px;

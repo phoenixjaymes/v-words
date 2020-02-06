@@ -1,10 +1,11 @@
-import { MeatWords, DoctorWords, GermanWords } from './data/words';
+import { MeatWords, DoctorWords, GermanWords, DutchWords } from './data/words';
 
 export const store = {
   state: {
     meatWords: MeatWords,
     doctorWords: DoctorWords,
     germanWords: GermanWords,
+    dutchWords: DutchWords,
     section: 'home',
     wordsType: '',
   },

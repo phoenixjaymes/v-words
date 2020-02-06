@@ -1,6 +1,6 @@
 <template>
   <header class="main-header">
-    <p class="main-header__name">Word Generator</p>
+    <p class="main-header__name">Vue.js Word Generator</p>
     <nav class="main-nav">
       <ul class="main-menu">
         <li
@@ -26,6 +26,7 @@ export default {
         { id: 'meat', name: 'Meat', section: 'words' },
         { id: 'doctor', name: 'Doctor Who', section: 'words' },
         { id: 'german', name: 'German', section: 'words' },
+        { id: 'dutch', name: 'Dutch', section: 'words' },
       ],
     };
   },
@@ -44,28 +45,28 @@ export default {
   position: fixed;
   left: 0;
   top: 0;
-  background: url("../assets/bg-words-1366x250.gif") center/auto 100% repeat-x #000;
-  background: #000;
-  height: 140px;
+  background: url("../assets/bg_words-1366x150.gif") center/auto repeat-x #000;
+  height: 100px;
   width: 100%;
 }
 
 @media (min-width: 768px) {
   .main-header {
-    background: url("../assets/bg-words-1366x250.gif") center repeat-x #000;
-    height: 250px;
+    background: url("../assets/bg_words-1366x150.gif") center/auto repeat-x #000;
+    height: 150px;
   }
 }
 
 .main-header__name {
   color: #fff;
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: bold;
-  margin: 15px 0 10px 0;
+  margin: 15px 0 5px 0;
   text-align: center; }
+
   @media (min-width: 768px) {
     .main-header__name {
-      margin-top: 75px;
+      /* margin-top: 75px; */
       font-size: 2.2em; } }
 
 

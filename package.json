@@ -1,6 +1,7 @@
 {
   "name": "v-words",
   "version": "0.1.0",
+  "homepage": "http://phoenixjaymes/lab/v-words/",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",
@@ -42,5 +43,8 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "vue": {
+    "publicPath": "/lab/v-words/"
+  }
 }
